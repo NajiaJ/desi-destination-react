@@ -1,0 +1,72 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/biriyani_home.avif');
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.hero-text {
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+
+#descript{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.button {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    z-index: 2;
+}
+
+.button:hover{
+    background-color:maroon;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-image{
+        background-size: cover;
+        height: auto;
+        width:auto;
+    }
+
+    .hero-text #banner{
+        font-size: 30px;
+    }
+
+    .hero-text #descript{
+        font-size: 10vw;
+    }
+
+    .hero-text p{
+        font-size: 64%;
+    }
+}

@@ -1,0 +1,159 @@
+.menu-title{
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.menu-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.biriyani:hover, .snacks:hover, .dessert:hover {
+    transform: translateY(-4px);
+  }
+
+.biriyani{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.snacks{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.dessert{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.biriyani h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.snacks h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dessert h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.biriyani:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.snacks:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dessert:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.biriyani button{
+    display: block;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color:white;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0 20px 0;
+}
+
+.snacks button{
+    display: block;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color:white;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0 20px 0;
+}
+
+.dessert button{
+    display: block;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color:white;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0 20px 0;
+}
+
+.biriyani button:hover {
+    background-color: #e67300;
+}
+
+.snacks button:hover{
+    background-color: #e67300;
+}
+
+.dessert button:hover{
+    background-color: #e67300;
+}
+  
+.biriyani-container {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding: 2px 16px;
+}
+
+.snacks-container{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding: 2px 16px;
+}
+
+.dessert-container{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding: 2px 16px;
+}
+
+.scroll-menu{
+    background-color: bisque;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-menu img{
+    padding: 10px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+.open-cart-button {
+    position: fixed;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .open-cart-button:hover {
+    background-color: darkorange;
+  }

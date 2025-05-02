@@ -1,0 +1,28 @@
+footer{
+  width: 100%;
+  padding: 20px 0px;
+  clear: both;
+  text-align: center;
+}
+  
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 10px;
+}
+  
+.social-media, .business-hour {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-media a {
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover{
+  color:brown;
+}

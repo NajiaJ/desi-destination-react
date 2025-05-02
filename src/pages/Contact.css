@@ -1,0 +1,55 @@
+#find, #contact{
+    font-size: 40px;
+    margin-left: 210px;
+    text-align: center;
+    width: 50%;
+}
+
+.map{
+    margin-left: 50px;
+}
+
+.contact-us{
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+input[type=text]{
+    width: 300px;
+}
+
+textarea{
+    height: 200px;
+    width: 300px;
+}
+
+input[type=submit]{
+    padding: 14px 12px;
+    background-color: brown;
+    color:white;
+    border: none;
+    border-radius:8px;
+}
+
+input[type=submit]:hover{
+    background-color: crimson;
+} 
+
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+        display: block;
+        float: none;
+        padding: 0px 10px;
+    }
+}

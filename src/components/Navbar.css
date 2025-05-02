@@ -1,0 +1,93 @@
+header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+  align-items: center;
+  padding: 5px;
+}
+
+.full-header{
+  background-color:rgb(249, 212, 157);
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+  
+header nav{
+  display: flex;
+  justify-content: end;
+}
+  
+nav li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+nav li a{
+  text-decoration: none;
+  color:black;
+}
+  
+nav li a:hover{
+  color:chocolate;
+}
+
+@media screen and (max-width: 600px) {
+    .navi{
+      display: none;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      bottom:auto;
+      left: 0;
+      width: 100%;
+      background-color: rgb(249, 212, 157);
+      z-index: 100;
+  }
+
+  .navi.show {
+      display: flex;
+  }
+
+  .navi li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      box-sizing: border-box;
+  }
+
+  .menu-icon {
+      display: block;
+      font-size: 30px;
+      color: black;
+      cursor: pointer;
+      padding: 10px;
+      border: none;
+      background-color: blanchedalmond;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .menu-icon {
+      display: none;
+      color: transparent;
+  }
+}
+
+.menu-icon {
+  border: none;
+  background-color: transparent;
+  display: block;
+  cursor: pointer;
+}
